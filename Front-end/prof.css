@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100vh;
+    background-image: url(images/background.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: border-box;
+    position: relative;
+
+}

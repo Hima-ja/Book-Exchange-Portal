@@ -1,0 +1,150 @@
+h1{
+    font-size: 8rem;
+    text-shadow: 2px 2px 5px red;
+    font-family: "Volkhov", serif;
+    padding-top: 7rem;
+
+}
+.popular{
+  padding: 3rem;
+}
+h2{
+  font-family: "Volkhov",serif ;
+  text-align: center;
+}
+.but{
+  padding-right: 20rem;
+  padding-bottom: 12rem;
+  background-image: linear-gradient(to right, rgba(47, 0, 255, 0), rgb(166, 29, 29));
+}
+
+body{
+
+    background-color: rgba(124, 67, 67, 0.819);
+    background-repeat:no-repeat;
+    background-size: 20rem;
+    background-position: bottom;
+    animation: harry 1 0.3s alternate-reverse;
+}
+@keyframes harry{
+    0%{
+        background-image: url("1.PNG");
+    }
+    50%{
+        background-image: url("2.PNG");
+    }
+    100%{
+        background-image: url("3.PNG");
+    }
+}
+
+  
+  
+ .top-left{
+     position:relative;
+     top:8px;
+     left:16px;
+ }
+
+ 
+ .container{
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: 105%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+ 
+}
+.second{
+ padding: 2rem;
+
+}
+.first{
+  padding: 2.1rem;
+  margin-left: 53rem;
+  margin-right: 3rem;
+ 
+ }
+ button{
+   background-color: rgb(183, 145, 219);
+   font-size: 1.5rem;
+   box-shadow: 0.5rem 0.5rem black;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ button:hover{
+  cursor: url('sor.PNG'),auto;
+ }
+ .mySlides {
+   display: none;
+ }
+ .slid{text-align:center!important}
+ .boooookkk
+ {
+   opacity: 1;
+   border-radius: 8px;
+
+ }
+ .quotes
+
+ {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 5px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+ }
+ .flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  float: left;
+  
+  padding: 5px;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);}
+
+
+   
+
+
