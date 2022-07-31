@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      body {
+          
+  background-image: url("images/bkgrnd.png"),url("images/bookbg.jpg");
+  background-repeat: no-repeat,no-repeat;
+  position: absolute,relative;
+  background-size: 100% 160px,cover;
+}
+
+    .fish
+    {
+        width: 180px;
+      position: absolute;
+      top: 70px;
+      left: 80px;
+      border-radius: 50%;
+      border: 5px solid #555;
+      margin-right: 40px;
+    }
+    .column {
+        position: relative;
+        top: 200px;
+  margin-left: 85px;
+    display: inline-block;
+}
+.column img:hover {
+    opacity: .5;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  </style>
+</head>
+<body>
+    <img src="images/pfp.jpg" class="fish" />
+    <p style="color:white;font-size:40px;text-align: center;">
+        Welcome USER
+    </p>
+    <div class="row">
+        <div class="column">
+          <a href="mybooks.html">
+          <img src="images/Asset 2.png" alt="Snow" style="width:150px"></a>
+        </div>
+        <div class="column">
+          <a href="allbooks.html">
+          <img src="images/Asset 3.png" alt="Forest" style="width:150px"></a>
+        </div>
+        <div class="column">
+          <img src="images/Asset 4.png" alt="Mountains" style="width:150px">
+        </div>
+        <div class="column">
+            <a href="profile.html">
+            <img src="images/Asset 6.png" alt="Mountains" style="width:150px">
+        </a>
+          </div>
+        <div class="column">
+            <a href="admin page.html">
+            <img src="images/Asset 5.png" alt="Mountains" style="width:150px"></a>
+          </div>
+      </div>
+</body>
+</html>
